@@ -34,6 +34,16 @@ ios jailbreak disable
 frida -H [iPhone IP] --codeshare liangxiaoyi1024/ios-jailbreak-detection-bypass -f 
 ```
 
+#### Binary scan
+
+{% code overflow="wrap" %}
+```bash
+# Check for MD5, SHA1 usage
+binary.sh /var/containers/Bundle/Application/BBBA8A55-669F-47AD-BD49-4277CF7AD6DE/[APP].app/[APP]
+# https://github.com/saladandonionrings/iOS-Binary-Security-Analyzer/blob/main/check-binary.sh
+```
+{% endcode %}
+
 #### Finding the App's ID
 
 {% code overflow="wrap" %}
